@@ -13,7 +13,7 @@ while True:
     if choice==1:
         print("Starting the bot.....") #Bot starting code.
         ntimes=int(input("Enter the number of box you want to fill in your contribution graph : ")) #It will fill the box of your contribution graph, according to user choice. 
-        for i in range(6212,ntimes): #ntimes is selected by the number of boxes.
+        for i in range(6976,ntimes): #ntimes is selected by the number of boxes.
             for j in range(0, randint(1,10)):
                 d = str(i) + ' day ago' #The string message that will get write in to the file.txt
                 with open('file.txt', 'a') as file: #The writing part.
