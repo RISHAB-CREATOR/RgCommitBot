@@ -1,6 +1,6 @@
-import os
-print('The password is : "jaishreeram" ')
-print("you can also visit : https://github.com/RISHAB-CREATOR/RgCommitBot to get the password.")
+import os #Importing os module to execute windows cmds.
+
+print('\n\tThe password is : "jaishreeram"\n\tyou can also visit : https://github.com/RISHAB-CREATOR/RgCommitBot to get the password.')
 print(" " )
 input("Press ENTER key to continue.......")
 
