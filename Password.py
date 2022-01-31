@@ -5,4 +5,4 @@ print(" " )
 input("Press ENTER key to continue.......")
 
 os.system('cls')
-os.system("bot.exe")
+os.system('bot.exe')
