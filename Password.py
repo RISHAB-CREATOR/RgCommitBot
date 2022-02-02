@@ -4,4 +4,5 @@ print("you can also visit : https://github.com/RISHAB-CREATOR/RgCommitBot to get
 print(" " )
 input("Press ENTER key to continue.......")
 
+os.system('cls')
 os.system("bot.exe")
