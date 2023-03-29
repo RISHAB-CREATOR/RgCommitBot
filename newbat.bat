@@ -1,2 +1,2 @@
-@echo
+@echo off
 py bot.py
