@@ -26,7 +26,7 @@ Welcome to the RgCommitBot, a handy tool designed to automate the process of fil
 10. After choosing the directory of the repository, type `py bot.py` or `py yourpythonfilename.py`
 11. Wait for a while now.
 12. Enjoy your green contribution graph.
-13. And if u want to make the repository public then u can make it after running CommitBot once.
+13. And if u want to make the repository public then u can make it after running the CommitBot once.
 
 ## Technologies Used 💻
 
