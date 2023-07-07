@@ -14,19 +14,18 @@ Welcome to the RgCommitBot, a handy tool designed to automate the process of fil
 
 ## How to Use 🛠️
 
-1. Download [GIT](https://git-scm.com/download/win) and install it with their recommended and default settings.
+1. Download [GIT](https://git-scm.com/download/win) and install it with those recommended and default settings.
 2. Download [PYTHON](https://www.python.org/downloads/) and install it.
-3. Create a private repository or fork this and make it private, it is important to make the repository private.
-4. Press in WIN+R key together in your windows pc.
+3. Create a private repository or fork this and make it private.
+4. Press in Win+r in your windows pc.
 5. Type 'CMD' in the search box and hit enter.
 6. And choose a proper a directory for the next process, example : cd downloads
 7. Then Type `git clone (yourprivaterepolink)` and hit enter.
-8. And it will ask for u to login your github, then do it, it is required.
-9. Then Type `cd (reponame)` to choose the repository directory. example : cd RgCommitBot or cd reponame
-10. After choosing the directory of the repository, type `py bot.py` or `py yourpythonfilename.py`
+8. And it will ask for u to login your github, then do it.
+9. Then Type cd the directory, example : cd RgCommitBot or cd reponame
+10. After choosing directory type, type `py bot.py` or `py yourpythonfilename.py`
 11. Wait for a while now.
 12. Enjoy your green contribution graph.
-13. And if u want to make the repository public then u can make it after running CommitBot once.
 
 ## Technologies Used 💻
 
