@@ -22,7 +22,7 @@ Welcome to the RgCommitBot, a handy tool designed to automate the process of fil
 6. And choose a proper a directory for the next process, example : cd downloads
 7. Then Type `git clone (yourprivaterepolink)` and hit enter.
 8. And it will ask for u to login your github, then do it.
-9. Then Type cd the directory, example : cd GithubBot or cd reponame
+9. Then Type cd the directory, example : cd RgCommitBot or cd reponame
 10. After choosing directory type, type `py bot.py` or `py yourpythonfilename.py`
 11. Wait for a while now.
 12. Enjoy your green contribution graph.
