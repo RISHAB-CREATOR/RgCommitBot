@@ -1,6 +1,7 @@
 import os
 from random import randint
 
+os.system('color a')
 for i in range(1,365):
 
     for j in range(0, randint(1,10)):
