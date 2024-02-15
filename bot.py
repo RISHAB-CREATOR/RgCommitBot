@@ -36,8 +36,8 @@ while True:
         print("11. Light Aqua")
         print("12. Light Red")
         print("13. Light Purple")
-        print("15. Light Yellow")
-        print("16. Bright White")
+        print("14. Light Yellow")
+        print("15. Bright White")
         print("==============")
         colchoice=int(input("Enter your color choice : "))
         if colchoice==1:
