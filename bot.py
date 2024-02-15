@@ -87,4 +87,11 @@ while True:
             os.system('color f')
         else:
             print("Wrong parameters.")
-            
+    elif choice==3:
+        print("This code was coded by Rishab")
+        print("Github Source : https://github.com/RISHAB-CREATOR/RgCommitBot/ ")
+    elif choice==4:
+        print("Quitting the code now")
+        quit()
+    else:
+        print("Wrong parameters.")
