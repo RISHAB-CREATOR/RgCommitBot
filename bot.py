@@ -1,28 +1,29 @@
+#Importing os and randint from random
 import os
 from random import randint
-
-os.system('color a')
+#While True is used for the infinite loop.
 while True:
-    print("="*9,"MENU","="*9)
-    print("1. Start the bot.")
-    print("2. Change the color of text.")
-    print("3. Credits")
-    print("4. Exit")
-    print("="*24)
-    choice=int(input("Enter your choice : "))
+    print("="*9,"MAIN MENU","="*9)
+    print("1. Start the bot.") #Option no 1 to start the bot.
+    print("2. Change the color of text.") #Option no 2 to change the color of cmd prompt text.
+    print("3. Credits") #Credits menu.
+    print("4. Exit") #Exit part of the code.
+    print("="*30) 
+    choice=int(input("Enter your choice : ")) #choice asking.
     if choice==1:
-        print("Starting the bot.....")
-        ntimes=int(input("Enter the number of box you want to fill in your contribution graph : "))
-        for i in range(0,ntimes):
+        print("Starting the bot.....") #Bot starting code.
+        ntimes=int(input("Enter the number of box you want to fill in your contribution graph : ")) #It will fill the box of your contribution graph, according to user choice. 
+        for i in range(0,ntimes): #ntimes is selected by the number of boxes.
             for j in range(0, randint(1,10)):
-                d = str(i) + ' day ago'
-                with open('file.txt', 'a') as file:
+                d = str(i) + ' day ago' #The string message that will get write in to the file.txt
+                with open('file.txt', 'a') as file: #The writing part.
                     file.write(d)
-                os.system('git add .')
-                os.system('git commit --date="' + d + '" -m "commit"')
-            os.system('git push -u origin main')
+                os.system('git add .') #Commiting the changes part.
+                os.system('git commit --date="' + d + '" -m "commit"') #"commit" msg is configurable.
+            os.system('git push -u origin main') #It will push the changes into the main repository
     elif choice==2:
-        print("=====MENU=====")
+        #Color coding part for the cmd prompt.
+        print("=====COLOR MENU=====") 
         print("1. Blue ")
         print("2. Green")
         print("3. Aqua")
@@ -38,8 +39,9 @@ while True:
         print("13. Light Purple")
         print("14. Light Yellow")
         print("15. Bright White")
-        print("==============")
-        colchoice=int(input("Enter your color choice : "))
+        print("=======================")
+        colchoice=int(input("Enter your color choice : ")) #it will ask user for choice.
+        #for more information search about color coding in windows.
         if colchoice==1:
             print("Changing color to Blue...")
             os.system('color 1')
@@ -85,13 +87,19 @@ while True:
         elif colchoice==15:
             print("Changing color to Light White...")
             os.system('color f')
-        else:
+        else: #Else part of the colorcoding part.
             print("Wrong parameters.")
-    elif choice==3:
-        print("This code was coded by Rishab")
-        print("Github Source : https://github.com/RISHAB-CREATOR/RgCommitBot/ ")
-    elif choice==4:
+    elif choice==3: #Credit part.
+        print("==============================================================")
+        print("This code was originally coded by Rishab") 
+        print("Github Source : https://github.com/RISHAB-CREATOR/RgCommitBot/ ") #The real source of the code, make sure to follow me on github and star the repository too!
+        print("Instagram : https://www.instagram.com/rishabnotfound/") #Make sure to follow me.
+        print("Youtube : https://www.youtube.com/@Rishab07") #Make sure to subscribe :D.
+        print("==============================================================")
+    elif choice==4: #The terminating part.
+        print("====================")
         print("Quitting the code now")
-        quit()
-    else:
+        print("====================")
+        quit() #You can use break statement too, for breaking the loop.
+    else: #Else part of the main menu.
         print("Wrong parameters.")
