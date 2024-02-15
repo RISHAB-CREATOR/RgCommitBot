@@ -91,7 +91,7 @@ while True:
             print("Wrong parameters.")
     elif choice==3: #Credit part.
         print("==============================================================")
-        print("This code was originally coded by Rishab") 
+        print("This code was originally coded by Rishab") #Don't Try to change it.
         print("Github Source : https://github.com/RISHAB-CREATOR/RgCommitBot/ ") #The real source of the code, make sure to follow me on github and star the repository too!
         print("Instagram : https://www.instagram.com/rishabnotfound/") #Make sure to follow me.
         print("Youtube : https://www.youtube.com/@Rishab07") #Make sure to subscribe :D.
