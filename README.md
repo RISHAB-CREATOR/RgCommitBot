@@ -25,7 +25,7 @@ Welcome to the RgCommitBot, a handy tool designed to automate the process of fil
 9. After login/signup process.
 10. Locate the directory in your file explorer, where git repository got cloned.
 11. Double-Click on the bot.exe and enjoy.
-12. It will ask for the password, the password is `boss`.
+12. It will ask for the password, the password is `jaishreeram`.
 13. After entering the correct password, the menu will be opened.
 14. Choose the correct option has per user choice.
 15. Wait for a while now.
