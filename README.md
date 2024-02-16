@@ -22,12 +22,15 @@ Welcome to the RgCommitBot, a handy tool designed to automate the process of fil
 6. And choose a proper a directory for the next process, example : cd downloads
 7. Then Type `git clone (yourprivaterepolink)` and hit enter.
 8. And it will ask for u to login your github, then do it, it is required.
-9. Then Type `cd (reponame)` to choose the repository directory. example : cd RgCommitBot or cd reponame
-10. After choosing the directory of the repository, type `py bot.py` or `py yourpythonfilename.py` or you can directly open that py file by double clicking it.
-11. Choose the correct option has per user choice.
-12. Wait for a while now.
-13. Enjoy your green contribution graph.
-14. And if u want to make the repository public then u can make it after running the CommitBot once.
+9. After login/signup process.
+10. Locate the directory in your file explorer, where git repository got cloned.
+11. Double-Click on the bot.exe and enjoy.
+12. It will ask for the password, the password is `boss`.
+13. After entering the correct password, the menu will be opened.
+14. Choose the correct option has per user choice.
+15. Wait for a while now.
+16. Enjoy your green contribution graph.
+17. And if u want to make the repository public then u can make it after running the CommitBot once.
 
 ## Technologies Used 💻
 
