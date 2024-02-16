@@ -1,4 +1,10 @@
-# RgCommitBot 🤖📈
+<p align="center">
+  <a href="https://github.com/RISHAB-CREATOR/RgCommitBot/">
+    <img src="logo.png" alt="Logo" width="150" height="150">
+  </a>
+<h3 align="center">RgBotClient 🤖📈</h3>
+  
+# Introduction ⭐
 
 Welcome to the RgCommitBot, a handy tool designed to automate the process of filling your GitHub contribution graph with commits! With this bot, you can easily simulate activity on your GitHub profile by generating and pushing commits to your repositories, ensuring that your contribution graph stays active and vibrant. Let's dive in and keep those contribution streaks going strong! 💪🚀
 
