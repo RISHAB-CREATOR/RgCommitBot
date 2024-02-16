@@ -6,9 +6,12 @@ from random import randint
 #While True is used for the infinite loop.
 #Authentication system.
 while True:
+    print("====================================================")
     print("Welcome to RgCommitBot")
+    print("Thank you for downloading.")
     print("Visit the github page for the password.")
     print("Link : https://github.com/RISHAB-CREATOR/RgCommitBot/")
+    print("====================================================")
     passw=input("Enter your password : ")
     if passw==passww:
         print("Correct Password!")
