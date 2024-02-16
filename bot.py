@@ -19,7 +19,7 @@ while True:
         break
     else:
         print("Wrong Password, try again!")
-
+#While True is used for the infinite loop.
 while True:
     print("="*9,"MAIN MENU","="*9)
     print("1. Start the bot.") #Option no 1 to start the bot.
