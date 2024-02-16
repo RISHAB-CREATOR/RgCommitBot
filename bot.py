@@ -4,10 +4,11 @@ passww="boss"
 import os
 from random import randint
 #While True is used for the infinite loop.
-
+#Authentication system.
 while True:
     print("Welcome to RgCommitBot")
-    print("Enter the password to continue")
+    print("Visit the github page for the password.")
+    print("Link : https://github.com/RISHAB-CREATOR/RgCommitBot/")
     passw=input("Enter your password : ")
     if passw==passww:
         print("Correct Password!")
@@ -35,6 +36,7 @@ while True:
                 os.system('git add .') #Commiting the changes part.
                 os.system('git commit --date="' + d + '" -m "commit"') #"commit" msg is configurable.
             os.system('git push -u origin main') #It will push the changes into the main repository
+        os.system('cls')
     elif choice==2:
         #Color coding part for the cmd prompt.
         print("=====COLOR MENU=====") 
@@ -59,48 +61,63 @@ while True:
         if colchoice==1:
             print("Changing color to Blue...")
             os.system('color 1')
+            os.system('cls')
         elif colchoice==2:
             print("Changing color to Green...")
             os.system('color 2')
+            os.system('cls')
         elif colchoice==3:
             print("Changing color to Aqua...")
             os.system('color 3')
+            os.system('cls')
         elif colchoice==4:
             print("Changing color to Red...")
             os.system('color 4')
+            os.system('cls')
         elif colchoice==5:
             print("Changing color to Purple...")
             os.system('color 5')
+            os.system('cls')
         elif colchoice==6:
             print("Changing color to Yellow...")
             os.system('color 6')
+            os.system('cls')
         elif colchoice==7:
             print("Changing color to White...")
             os.system('color 7')
+            os.system('cls')
         elif colchoice==8:
             print("Changing color to Gray...")
             os.system('color 8')
+            os.system('cls')
         elif colchoice==9:
             print("Changing color to Light Blue...")
             os.system('color 9')
+            os.system('cls')
         elif colchoice==10:
             print("Changing color to Light Green...")
             os.system('color a')
+            os.system('cls')
         elif colchoice==11:
             print("Changing color to Light Aqua...")
             os.system('color b')
+            os.system('cls')
         elif colchoice==12:
             print("Changing color to Light Red...")
             os.system('color c')
+            os.system('cls')
         elif colchoice==13:
             print("Changing color to Light Purple...")
             os.system('color d')
+            os.system('cls')
         elif colchoice==14:
             print("Changing color to Light Yellow...")
             os.system('color e')
+            os.system('cls')
         elif colchoice==15:
             print("Changing color to Light White...")
             os.system('color f')
+            os.system('cls')
         else: #Else part of the colorcoding part.
             print("Wrong parameters.")
     elif choice==3: #Credit part.
